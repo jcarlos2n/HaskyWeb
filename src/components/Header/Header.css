@@ -1,4 +1,31 @@
+
+@font-face {
+    font-family: "hasky";
+    src: local('../../assets/GraveSnatchers.ttf'), url('../../assets/GraveSnatchers.ttf');
+  }
+
 .headerBox{
-    background-color: red;
+    background-color: black;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoHeader{
+    width: 5.5em;
+    height: 5.5em;
+}
+
+h1{
+    font-family: "hasky";
+    margin-left: 0.3em;
+    color: red;
 }
