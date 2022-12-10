@@ -3,4 +3,16 @@
     width: 100vw;
     background-color: blueviolet;
     background-image: url("../assets/fondo.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+}
+
+.twitch{
+    width: 3em;
 }
