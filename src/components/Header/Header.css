@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "hasky";
-    src: local('../../assets/GraveSnatchers.ttf'), url('../../assets/GraveSnatchers.ttf');
+    src: local('../../assets/GraveSnatchers.ttf'), url('../../assets/GraveSnatchers.ttf'), format('embedded-opentype');
   }
 
 .headerBox{
@@ -26,7 +26,7 @@
 }
 
 h1{
-    font-family: "hasky";
+    font-family: "hasky" !important;
     margin-left: 0.3em;
     color: red;
     text-shadow: 2px 1px white;

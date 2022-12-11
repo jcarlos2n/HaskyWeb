@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "hasky";
-    src: local('../../assets/GraveSnatchers.ttf'), url('../../assets/GraveSnatchers.ttf');
+    src: local('../assets/GraveSnatchers.ttf'),local("hasky"), url('../assets/GraveSnatchers.ttf');
   }
 
 .homeBox {
@@ -52,7 +52,7 @@
 }
 
 .socialName{
-    font-family: "hasky";
+    font-family: "hasky" !important;
     color: rgb(243, 65, 65);
     margin: 0.4em;
     text-shadow: 2px 1px white;
