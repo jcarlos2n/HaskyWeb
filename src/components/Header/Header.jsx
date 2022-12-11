@@ -1,6 +1,6 @@
 
 import './Header.css'
-import logo from "../../assets/el_hasky_2.png"
+import logo from "../../assets/prueb.png"
 
 const Header = () => {
 
