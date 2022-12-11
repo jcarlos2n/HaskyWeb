@@ -1,4 +1,4 @@
-.homeBox{
+.homeBox {
     min-height: 75vh;
     width: 100vw;
     background-color: blueviolet;
@@ -8,11 +8,31 @@
     align-items: center;
 }
 
-.socials{
+.socialsBox {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47, 42, 42, 0.641);
+    border-radius: 1em;
+    margin: 1em;
 }
 
-.twitch{
-    width: 3em;
+.socials {
+    width: 10em;
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    background-color: rgba(47, 42, 42, 0.641);
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.twitch {
+    width: 3.5em;
 }

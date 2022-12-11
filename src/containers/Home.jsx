@@ -8,28 +8,28 @@ import twitter from "../assets/twitter.png"
 
 const Home = () => {
 
-    return(
+    return (
         <div className='homeBox'>
             <div className="socialsBox">
                 <div className="socials">
                     <img className="twitch" src={twitch} alt="" srcset="" />
-                    <h3>TWITCH</h3>
+                    <a href="">TWITCH</a>
                 </div>
                 <div className="socials">
-                <img className="twitch" src={insta} alt="" srcset="" />
-                    <h3>TWITCH</h3>
+                    <img className="twitch" src={insta} alt="" srcset="" />
+                    <a href="">INSTAGRAM</a>
                 </div>
                 <div className="socials">
-                <img src="" alt="" srcset="" />
-                    <h3>TWITCH</h3>
+                    <img src="" alt="" srcset="" />
+                    <a href="">YOUTUBE</a>
                 </div>
                 <div className="socials">
-                <img src="" alt="" srcset="" />
-                    <h3>TWITCH</h3>
+                    <img src="" alt="" srcset="" />
+                    <a href="">TIK TOK</a>
                 </div>
                 <div className="socials">
-                <img src="" alt="" srcset="" />
-                    <h3>TWITCH</h3>
+                    <img src="" alt="" srcset="" />
+                    <a href="">TWITTER</a>
                 </div>
             </div>
         </div>
