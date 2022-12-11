@@ -53,6 +53,7 @@
 
 .socialName{
     font-family: "hasky";
-    color: red;
+    color: rgb(243, 65, 65);
     margin: 0.4em;
+    text-shadow: 2px 1px white;
 }

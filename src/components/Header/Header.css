@@ -29,4 +29,5 @@ h1{
     font-family: "hasky";
     margin-left: 0.3em;
     color: red;
+    text-shadow: 2px 1px white;
 }
