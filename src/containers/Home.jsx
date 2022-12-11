@@ -11,23 +11,23 @@ const Home = () => {
     return (
         <div className='homeBox'>
             <div className="socialsBox">
-                <a href="" className="socials">
+                <a href="https://www.twitch.tv/el_hasky" className="socials">
                     <img className="twitch" src={twitch} alt="TWITCH" />
                     <h3 className="socialName" href="">TWITCH</h3>
                 </a>
-                <a href="" className="socials">
+                <a href="https://www.instagram.com/_el_hasky/" className="socials">
                     <img className="twitch" src={insta} alt="INSTAGRAM" />
                     <h3 className="socialName" href="">INSTAGRAM</h3>
                 </a>
-                <a href="" className="socials">
+                <a href="https://www.youtube.com/channel/UCThB3b_r8PfhsRklureaykw" className="socials">
                     <img className="twitch" src={youtube} alt="YOUTUBE" />
                     <h3 className="socialName" href="">YOUTUBE</h3>
                 </a>
-                <a href="" className="socials">
+                <a href="https://www.tiktok.com/@el_hasky" className="socials">
                     <img className="twitch" src={tik} alt="TIK TOK" />
                     <h3 className="socialName" href="">TIK TOK</h3>
                 </a>
-                <a href="" className="socials">
+                <a href="https://twitter.com/EL_HASKY" className="socials">
                     <img className="twitch" src={twitter} alt="TWITTER" />
                     <h3 className="socialName" href="">TWITTER</h3>
                 </a>
