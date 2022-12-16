@@ -5,6 +5,7 @@ import tik from "../assets/tiktok.png"
 import twitch from "../assets/twitch.png"
 import youtube from "../assets/youtube.png"
 import twitter from "../assets/twitter.png"
+import discord from "../assets/discord.png"
 
 const Home = () => {
 
@@ -30,6 +31,10 @@ const Home = () => {
                 <a href="https://twitter.com/EL_HASKY" className="socials">
                     <img className="twitch" src={twitter} alt="TWITTER" />
                     <h3 className="socialName" href="">TWITTER</h3>
+                </a>
+                <a href="https://discord.gg/y4qFjzphBF" className="socials">
+                    <img className="twitch" src={discord} alt="DISCORD" />
+                    <h3 className="socialName" href="">DISCORD</h3>
                 </a>
             </div>
             <div className="video">
